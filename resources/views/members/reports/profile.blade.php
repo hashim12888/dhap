@@ -82,7 +82,7 @@ if ($member) {
               @endif
             </div>
 
-            <h3 class="profile-username text-center">{{$member ? $member->memberid : '' }}</h3>
+            <h3 class="profile-username text-center">{{$member ? $member->memberid : '' }}</h3> 
 
             <p class="text-muted text-center">{{$member ? $member->membername : '' }}</p>
 
